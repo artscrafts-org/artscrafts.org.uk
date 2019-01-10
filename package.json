@@ -1,5 +1,9 @@
 {
-  "dependencies": {
+  "scripts": {
+    "format": "prettier --write '*.{js,jsx,json,md,html,css}' '**/*.{js,jsx,json,html,css}'"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3",
     "serve": "^10.1.1"
   }
 }
